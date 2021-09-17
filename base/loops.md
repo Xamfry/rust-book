@@ -19,7 +19,7 @@ for i in 0..5 {
 ```
 
 for может получить не только значение, но и номер итерации
-```rust`
+```rust
 for (count, variable) in (7..10).enumerate() {
   println!("Count = {}, Variable = {}", count, variable);
 }
