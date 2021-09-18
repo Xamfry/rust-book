@@ -155,7 +155,7 @@ println!("{}", slice);
 fn main() {
   let string: &str = "Программирование на Rust";
   display_string(string);
-  println!("Строка: {}", string); // мы можем вызвать функцию
+  println!("Строка: {}", string); // мы можем вызвать &str вновь
 }
 
 fn display_string(string: &str) {
